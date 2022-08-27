@@ -1,0 +1,61 @@
+body {
+    background: lightskyblue;
+    color: white;
+}
+
+div {
+    padding: 40px;
+    margin: 20px;
+    height: 100%;
+    border: 5px solid limegreen;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+li {
+    display: inline-block;
+    padding-right: 5px;
+    border-right: 2px solid gray;
+    font-size: 16px;
+    line-height: 12px;
+}
+
+li:last-child {
+    padding-right: 0;
+    border-right: none;
+}
+
+header nav ul li:first-child a {
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: limegreen;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    float: right;
+    width: 30%;
+    padding: 0 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
